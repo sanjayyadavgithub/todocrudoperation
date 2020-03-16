@@ -17,7 +17,19 @@ crud operation :
 
 (Collection.remove() method)
 
-3.search of data into table using bootstrap
+4.search of data into table using bootstrap
 
 (https://datatables.net/examples/styling/bootstrap4)
+
+4.upload image using 
+
+var mw=require("multer-w")
+router.post('/reg4',mw('./public/uploads')
+
+router.post('/reg4',function(req,res){
+
+console.log(  req.fileObj )
+
+console.log(req.body)
+res.send('')
 
